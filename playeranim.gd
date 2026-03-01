@@ -5,7 +5,7 @@ var state = ""
 var idle_timer = 0
 
 func _process(delta: float):
-	if Input.is_action_pressed("jump"):
+	if Input.is_action_pressed("jump") and animation == "idle":
 		play("jump")
 	if Input.is_action_pressed("action") and Input.is_action_pressed("jump"):
 		play("action_up")
@@ -15,10 +15,16 @@ func _process(delta: float):
 		play("action_right")
 	if Input.is_action_just_pressed("action"):
 		play("action_down")
-	if Input.is_action_pressed("left"):
+	if Input.is_action_pressed("left") and not Input.is_action_pressed("action"):
 		play("walk_left")
-	if Input.is_action_pressed("right"):
+	if Input.is_action_pressed("right") and not Input.is_action_pressed("action"):
 		play("walk_right")
+	if Input.is_action_pressed("left") and not Input.is_action_pressed("jump"):
+		play("walk_left")
+	if Input.is_action_pressed("right") and not Input.is_action_pressed("jump"):
+		play("walk_right")
+	if Input.is_action_pressed("left") and Input.is_action_pressed("jump"):
+		play("jump_left")
 	if Input.is_action_pressed("left") or Input.is_action_pressed("right") or Input.is_action_pressed("action") or Input.is_action_pressed("jump"):	# if moving
 		if state != "Moving":
 			state = "Moving"
