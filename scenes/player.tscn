@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://c5i7cycxvau03"]
+[gd_scene load_steps=35 format=3 uid="uid://c5i7cycxvau03"]
 
 [ext_resource type="Script" uid="uid://dq5g5hiw0ygt5" path="res://player.gd" id="1_onrkg"]
 [ext_resource type="Texture2D" uid="uid://cd3nl0uwt3pau" path="res://oneko.png" id="2_g2els"]
@@ -38,6 +38,14 @@ region = Rect2(0, 0, 32, 32)
 [sub_resource type="AtlasTexture" id="AtlasTexture_jej6c"]
 atlas = ExtResource("2_g2els")
 region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wqfne"]
+atlas = ExtResource("2_g2els")
+region = Rect2(32, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wnwbv"]
+atlas = ExtResource("2_g2els")
+region = Rect2(32, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qhqgy"]
 atlas = ExtResource("2_g2els")
@@ -159,6 +167,17 @@ animations = [{
 }],
 "loop": true,
 "name": &"action_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wqfne")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wnwbv")
+}],
+"loop": true,
+"name": &"climb",
 "speed": 5.0
 }, {
 "frames": [{
@@ -302,7 +321,7 @@ animations = [{
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_onrkg")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="PlayerHitbox" type="CollisionShape2D" parent="."]
 position = Vector2(164.5, 99.5)
 shape = SubResource("RectangleShape2D_onrkg")
 
@@ -310,5 +329,5 @@ shape = SubResource("RectangleShape2D_onrkg")
 position = Vector2(165, 106)
 scale = Vector2(3.9375, 3.875)
 sprite_frames = SubResource("SpriteFrames_tuyoq")
-animation = &"jump"
+animation = &"climb"
 script = ExtResource("3_qhqgy")
