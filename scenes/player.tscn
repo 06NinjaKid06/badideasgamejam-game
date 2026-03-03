@@ -5,7 +5,7 @@
 [ext_resource type="Script" uid="uid://bbfkdf1v3bxmp" path="res://playeranim.gd" id="3_qhqgy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_onrkg"]
-size = Vector2(124, 122)
+size = Vector2(109, 99)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tuyoq"]
 atlas = ExtResource("2_g2els")
@@ -303,12 +303,12 @@ animations = [{
 script = ExtResource("1_onrkg")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(166, 107)
+position = Vector2(164.5, 99.5)
 shape = SubResource("RectangleShape2D_onrkg")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(165, 106)
 scale = Vector2(3.9375, 3.875)
 sprite_frames = SubResource("SpriteFrames_tuyoq")
-animation = &"jump_left"
+animation = &"action_left"
 script = ExtResource("3_qhqgy")

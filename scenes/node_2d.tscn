@@ -509,7 +509,7 @@ position = Vector2(352, 169)
 position = Vector2(161, 104)
 
 [node name="DoorA" parent="." instance=ExtResource("3_04qyp")]
-position = Vector2(788, 202)
+position = Vector2(-115, -291)
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(-16, 0)
@@ -530,3 +530,4 @@ show_behind_parent = true
 position = Vector2(515, 381)
 scale = Vector2(1.86823, 1.72109)
 texture = ExtResource("5_j7wrs")
+metadata/_edit_lock_ = true
