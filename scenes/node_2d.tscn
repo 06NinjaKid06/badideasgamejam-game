@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://cgspij8qss1vs" path="res://scenes/killzone.tscn" id="5_04qyp"]
 [ext_resource type="Texture2D" uid="uid://bu7scrp3uditb" path="res://Untitled21_20260217155150.png" id="5_j7wrs"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_04qyp"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4vge2"]
 texture = ExtResource("4_4vge2")
 texture_region_size = Vector2i(64, 64)
 0:0/0 = 0
@@ -496,7 +496,7 @@ texture_region_size = Vector2i(64, 64)
 
 [sub_resource type="TileSet" id="TileSet_4vge2"]
 physics_layer_0/collision_layer = 1
-sources/3 = SubResource("TileSetAtlasSource_04qyp")
+sources/3 = SubResource("TileSetAtlasSource_4vge2")
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_4vge2"]
 
