@@ -1,7 +1,3 @@
 # Bad Ideas Game Jam Game
 ## Script
-Bad game idea  
-
-Schrödinger's cat platformer. You are Schrödinger's cat trying to escape the box filled with deadly traps. What awaits you on the other side and how will you get out of the box. 
-
-YOUTUBE 
+https://1drv.ms/w/c/e109e9c5f0b06049/IQDLP1zeUq_DR4-V3psTU8P-ASBvB1EbnMxwJoxM7kPctGQ?e=zuP0I8
