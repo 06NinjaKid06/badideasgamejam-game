@@ -310,5 +310,5 @@ shape = SubResource("RectangleShape2D_onrkg")
 position = Vector2(165, 106)
 scale = Vector2(3.9375, 3.875)
 sprite_frames = SubResource("SpriteFrames_tuyoq")
-animation = &"action_left"
+animation = &"jump"
 script = ExtResource("3_qhqgy")
