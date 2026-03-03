@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://c8udsfjl7dr22"]
+
+[ext_resource type="Texture2D" uid="uid://uyh3oabsljmp" path="res://tilesheet_complete.png" id="1_7ct4w"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_im2sa"]
+size = Vector2(104, 9)
+
+[node name="Bridge" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_7ct4w")
+region_enabled = true
+region_rect = Rect2(1132, 282.5, 104, 9)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_im2sa")
