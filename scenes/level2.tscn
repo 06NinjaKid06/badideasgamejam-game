@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://c5i7cycxvau03" path="res://scenes/player.tscn" id="1_4038r"]
 [ext_resource type="Texture2D" uid="uid://uyh3oabsljmp" path="res://tilesheet_complete.png" id="2_2k3dv"]
 [ext_resource type="PackedScene" uid="uid://cgspij8qss1vs" path="res://scenes/killzone.tscn" id="3_alqfr"]
-[ext_resource type="Texture2D" uid="uid://bu7scrp3uditb" path="res://Untitled21_20260217155150.png" id="4_2k3dv"]
+[ext_resource type="Texture2D" uid="uid://dfhowo0xb4y30" path="res://Preview_Oneko.png" id="4_yqkch"]
 [ext_resource type="PackedScene" uid="uid://bvtecppvy81j5" path="res://scenes/door_a.tscn" id="5_alqfr"]
 [ext_resource type="PackedScene" uid="uid://tlpl73f7j6v" path="res://scenes/ladder.tscn" id="6_yqkch"]
 
@@ -523,9 +523,9 @@ shape = SubResource("WorldBoundaryShape2D_hrcei")
 
 [node name="bg" type="Sprite2D" parent="."]
 z_index = -10
-position = Vector2(531, 263)
-scale = Vector2(4.04167, 3.45312)
-texture = ExtResource("4_2k3dv")
+position = Vector2(520, 274)
+scale = Vector2(4.62969, 3.86309)
+texture = ExtResource("4_yqkch")
 
 [node name="killzone2" parent="." instance=ExtResource("3_alqfr")]
 position = Vector2(1022, -73)
@@ -540,4 +540,4 @@ position = Vector2(656, -362)
 scale = Vector2(1.10102, 0.608654)
 
 [node name="Ladder" parent="." instance=ExtResource("6_yqkch")]
-position = Vector2(301, -294)
+position = Vector2(287, -315)

@@ -7,7 +7,10 @@ func _process(_delta: float) -> void:
 		print("player in area!")
 		if Input.is_action_pressed("action"):
 			print("action pressed!")
-			get_tree().change_scene_to_file("res://scenes/ladder.tscn") # no player in this scene... hope you like 400 errors!
+			get_tree().change_scene_to_file("res://scenes/ladder.tscn") # no player in this scene... welcome to error hell
+	else:
+		return
+
 
 #func _on_body_entered(_body):
 #	var bodies = get_overlapping_bodies()
