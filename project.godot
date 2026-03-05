@@ -16,6 +16,10 @@ run/main_scene="uid://oudn6gnsq6jp"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="uid://dkqv80ixrm1ji"
 
+[audio]
+
+buses/default_bus_layout="res://music/default_bus_layout.tres"
+
 [input]
 
 jump={
