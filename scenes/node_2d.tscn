@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://uyh3oabsljmp" path="res://tilesheet_complete.png" id="4_4vge2"]
 [ext_resource type="PackedScene" uid="uid://cgspij8qss1vs" path="res://scenes/killzone.tscn" id="5_04qyp"]
 [ext_resource type="Texture2D" uid="uid://bu7scrp3uditb" path="res://Untitled21_20260217155150.png" id="5_j7wrs"]
-[ext_resource type="AudioStream" uid="uid://bijd5xdpbauq7" path="res://music/Game jam song again.mp3" id="6_j7wrs"]
+[ext_resource type="AudioStream" uid="uid://bcrc84mwbxvy5" path="res://music/game jam song finished.mp3" id="6_j7wrs"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4vge2"]
 texture = ExtResource("4_4vge2")
