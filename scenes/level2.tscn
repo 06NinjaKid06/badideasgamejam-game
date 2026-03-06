@@ -1,10 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://bgkjyx5bs0pme"]
+[gd_scene load_steps=9 format=3 uid="uid://bgkjyx5bs0pme"]
 
 [ext_resource type="PackedScene" uid="uid://c5i7cycxvau03" path="res://scenes/player.tscn" id="1_4038r"]
 [ext_resource type="Texture2D" uid="uid://uyh3oabsljmp" path="res://tilesheet_complete.png" id="2_2k3dv"]
 [ext_resource type="PackedScene" uid="uid://cgspij8qss1vs" path="res://scenes/killzone.tscn" id="3_alqfr"]
 [ext_resource type="Texture2D" uid="uid://bmnef4yckhghc" path="res://Preview_Oneko.png" id="4_yqkch"]
-[ext_resource type="PackedScene" uid="uid://cphcyg5trlvs1" path="res://scenes/door_b.tscn" id="5_alqfr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_alqfr"]
 texture = ExtResource("2_2k3dv")
@@ -532,7 +531,3 @@ position = Vector2(1022, -73)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="killzone2"]
 position = Vector2(-528, -173.5)
 shape = SubResource("RectangleShape2D_2k3dv")
-
-[node name="door-b" parent="." instance=ExtResource("5_alqfr")]
-visible = false
-position = Vector2(663, -289)
